@@ -1,0 +1,654 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncWebsocketConsumer",
+        "importPath": "channels.generic.websocket",
+        "description": "channels.generic.websocket",
+        "isExtraImport": true,
+        "detail": "channels.generic.websocket",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ChatConsumer",
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "isExtraImport": true,
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "chat",
+        "description": "chat",
+        "isExtraImport": true,
+        "detail": "chat",
+        "documentation": {}
+    },
+    {
+        "label": "routing",
+        "importPath": "chat",
+        "description": "chat",
+        "isExtraImport": true,
+        "detail": "chat",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "AuthMiddlewareStack",
+        "importPath": "channels.auth",
+        "description": "channels.auth",
+        "isExtraImport": true,
+        "detail": "channels.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ProtocolTypeRouter",
+        "importPath": "channels.routing",
+        "description": "channels.routing",
+        "isExtraImport": true,
+        "detail": "channels.routing",
+        "documentation": {}
+    },
+    {
+        "label": "URLRouter",
+        "importPath": "channels.routing",
+        "description": "channels.routing",
+        "isExtraImport": true,
+        "detail": "channels.routing",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "ChatConfig",
+        "kind": 6,
+        "importPath": "chat.apps",
+        "description": "chat.apps",
+        "peekOfCode": "class ChatConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'chat'",
+        "detail": "chat.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ChatConsumer",
+        "kind": 6,
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "peekOfCode": "class ChatConsumer(AsyncWebsocketConsumer):\n\tasync def connect(self):\n\t\tself.roomGroupName = \"group_chat_kpulse\"\n\t\tawait self.channel_layer.group_add(\n\t\t\tself.roomGroupName ,\n\t\t\tself.channel_name\n\t\t)\n\t\tawait self.accept()\n\tasync def disconnect(self , close_code):\n\t\tawait self.channel_layer.group_discard(",
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tself.roomGroupName",
+        "kind": 5,
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "peekOfCode": "\t\tself.roomGroupName = \"group_chat_kpulse\"\n\t\tawait self.channel_layer.group_add(\n\t\t\tself.roomGroupName ,\n\t\t\tself.channel_name\n\t\t)\n\t\tawait self.accept()\n\tasync def disconnect(self , close_code):\n\t\tawait self.channel_layer.group_discard(\n\t\t\tself.roomGroupName , \n\t\t\tself.channel_layer ",
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ttext_data_json",
+        "kind": 5,
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "peekOfCode": "\t\ttext_data_json = json.loads(text_data)\n\t\tmessage = text_data_json[\"message\"]\n\t\tusername = text_data_json[\"username\"]\n\t\tawait self.channel_layer.group_send(\n\t\t\tself.roomGroupName,{\n\t\t\t\t\"type\" : \"sendMessage\" ,\n\t\t\t\t\"message\" : message , \n\t\t\t\t\"username\" : username ,\n\t\t\t})\n\tasync def sendMessage(self , event) : ",
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tmessage",
+        "kind": 5,
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "peekOfCode": "\t\tmessage = text_data_json[\"message\"]\n\t\tusername = text_data_json[\"username\"]\n\t\tawait self.channel_layer.group_send(\n\t\t\tself.roomGroupName,{\n\t\t\t\t\"type\" : \"sendMessage\" ,\n\t\t\t\t\"message\" : message , \n\t\t\t\t\"username\" : username ,\n\t\t\t})\n\tasync def sendMessage(self , event) : \n\t\tmessage = event[\"message\"]",
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tusername",
+        "kind": 5,
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "peekOfCode": "\t\tusername = text_data_json[\"username\"]\n\t\tawait self.channel_layer.group_send(\n\t\t\tself.roomGroupName,{\n\t\t\t\t\"type\" : \"sendMessage\" ,\n\t\t\t\t\"message\" : message , \n\t\t\t\t\"username\" : username ,\n\t\t\t})\n\tasync def sendMessage(self , event) : \n\t\tmessage = event[\"message\"]\n\t\tusername = event[\"username\"]",
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tmessage",
+        "kind": 5,
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "peekOfCode": "\t\tmessage = event[\"message\"]\n\t\tusername = event[\"username\"]\n\t\tawait self.send(text_data = json.dumps({\"message\":message ,\"username\":username}))",
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tusername",
+        "kind": 5,
+        "importPath": "chat.consumers",
+        "description": "chat.consumers",
+        "peekOfCode": "\t\tusername = event[\"username\"]\n\t\tawait self.send(text_data = json.dumps({\"message\":message ,\"username\":username}))",
+        "detail": "chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserCreationForm",
+        "kind": 6,
+        "importPath": "chat.forms",
+        "description": "chat.forms",
+        "peekOfCode": "class CustomUserCreationForm(UserCreationForm):\n    password1 = forms.CharField(label='Password', widget=forms.PasswordInput)\n    password2 = forms.CharField(label='Confirm Password', widget=forms.PasswordInput)\n    class Meta(UserCreationForm.Meta):\n        model = User\n        fields = ['username', 'first_name', 'last_name', 'email', 'password1', 'password2']\n    def clean_password2(self):\n        password1 = self.cleaned_data.get(\"password1\")\n        password2 = self.cleaned_data.get(\"password2\")\n        if password1 and password2 and password1 != password2:",
+        "detail": "chat.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginForm",
+        "kind": 6,
+        "importPath": "chat.forms",
+        "description": "chat.forms",
+        "peekOfCode": "class UserLoginForm(AuthenticationForm):\n    username = forms.CharField(label=\"Username\")\n    password = forms.CharField(label=\"Password\", widget=forms.PasswordInput)",
+        "detail": "chat.forms",
+        "documentation": {}
+    },
+    {
+        "label": "websocket_urlpatterns",
+        "kind": 5,
+        "importPath": "chat.routing",
+        "description": "chat.routing",
+        "peekOfCode": "websocket_urlpatterns = [\n\tpath(\"\" , ChatConsumer.as_asgi()) , \n]",
+        "detail": "chat.routing",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "chat.urls",
+        "description": "chat.urls",
+        "peekOfCode": "urlpatterns = [\n\tpath(\"\", views.chatPage, name=\"chat-page\"),\n\t# login-section\n\tpath(\"login/\", LoginView.as_view(template_name=\"login.html\"), name=\"login-user\"),\n\tpath(\"logout/\", views.userLogout, name=\"logout-user\"),\n\tpath('register/', views.register, name=\"register\"),\n]",
+        "detail": "chat.urls",
+        "documentation": {}
+    },
+    {
+        "label": "chatPage",
+        "kind": 2,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "def chatPage(request, *args, **kwargs):\n\tif not request.user.is_authenticated:\n\t\treturn redirect(\"login-user\")\n\tcontext = {}\n\treturn render(request, \"chat.html\", context)\ndef register(request):\n    if request.method == 'POST':\n        form = CustomUserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "def register(request):\n    if request.method == 'POST':\n        form = CustomUserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('chat-page')  # Redirect to a success page\n    else:\n        form = CustomUserCreationForm()\n    return render(request, 'register.html', {'form': form})\n@login_required  ",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "userLogout",
+        "kind": 2,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "def userLogout(request):\n    logout(request)\n    return redirect('login-user')",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "\tcontext",
+        "kind": 5,
+        "importPath": "chat.views",
+        "description": "chat.views",
+        "peekOfCode": "\tcontext = {}\n\treturn render(request, \"chat.html\", context)\ndef register(request):\n    if request.method == 'POST':\n        form = CustomUserCreationForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('chat-page')  # Redirect to a success page\n    else:\n        form = CustomUserCreationForm()",
+        "detail": "chat.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "KPulse.asgi",
+        "description": "KPulse.asgi",
+        "peekOfCode": "application = ProtocolTypeRouter(\n\t{\n\t\t\"http\" : get_asgi_application() , \n\t\t\"websocket\" : AuthMiddlewareStack(\n\t\t\tURLRouter(\n\t\t\t\trouting.websocket_urlpatterns\n\t\t\t) \n\t\t)\n\t}\n)",
+        "detail": "KPulse.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-bz3&u_8-x#8)1-9hd^bvd^-ij)6o*^$0dj8fv3@ew)k$hho$f_'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-bz3&u_8-x#8)1-9hd^bvd^-ij)6o*^$0dj8fv3@ew)k$hho$f_'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'daphne',",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'daphne',\n    'django.contrib.staticfiles',",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'daphne',\n    'django.contrib.staticfiles',\n    'channels',\n    'chat',",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'KPulse.urls'",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "ROOT_URLCONF = 'KPulse.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ASGI_APPLICATION",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "ASGI_APPLICATION = 'KPulse.asgi.application'\nCHANNEL_LAYERS = {\n    \"default\": {\n        \"BACKEND\": \"channels.layers.InMemoryChannelLayer\"\n    }\n}\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNEL_LAYERS",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "CHANNEL_LAYERS = {\n    \"default\": {\n        \"BACKEND\": \"channels.layers.InMemoryChannelLayer\"\n    }\n}\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nLOGIN_REDIRECT_URL = \"chat-page\"\nLOGOUT_REDIRECT_URL = \"login-user\"",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nLOGIN_REDIRECT_URL = \"chat-page\"\nLOGOUT_REDIRECT_URL = \"login-user\"\n# Default primary key field type",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nLOGIN_REDIRECT_URL = \"chat-page\"\nLOGOUT_REDIRECT_URL = \"login-user\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nLOGIN_REDIRECT_URL = \"chat-page\"\nLOGOUT_REDIRECT_URL = \"login-user\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nLOGIN_REDIRECT_URL = \"chat-page\"\nLOGOUT_REDIRECT_URL = \"login-user\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "MEDIA_URL = 'media/'\nLOGIN_REDIRECT_URL = \"chat-page\"\nLOGOUT_REDIRECT_URL = \"login-user\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = \"chat-page\"\nLOGOUT_REDIRECT_URL = \"login-user\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = \"login-user\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "KPulse.settings",
+        "description": "KPulse.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "KPulse.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "KPulse.urls",
+        "description": "KPulse.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"\", include(\"chat.urls\")),\n]",
+        "detail": "KPulse.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "KPulse.wsgi",
+        "description": "KPulse.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "KPulse.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'KPulse.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

@@ -1,0 +1,125 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    
+    <title>Chat</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+
+        <link rel="stylesheet" href="{% static 'css/chat.css' %}">
+
+        <style>
+            /* Add custom font family */
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+        /* Style for h1 */
+        h1 {
+            font-family: 'Indie Flower', cursive; /* Apply custom cursive font family */
+            text-align: center;
+            margin-top: 3rem;
+            font-size: 3rem; /* Adjust font size as needed */
+            color: #333; /* Text color */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.4); /* Add text shadow */
+        }
+        </style>
+</head>
+<body>
+    <h1 class="text-center mt-3">Hi {{ request.user.first_name }} {{ request.user.last_name }}, Welcome to the KPulse ☺ Chat Room</h1>
+    <br>
+    {% if request.user.is_authenticated %}
+        <h5 class="d-flex justify-content-end mx-5"><a class="text-end text-white bg-success   btn border-1 border-dark  " href="{% url 'logout-user' %}">Logout</a></h5>
+    {% endif %}
+    <div class="msg_card_body col-md-6" id="msg_card_body" style=" margin: auto;">
+        
+    </div>
+    <!-- <div class="message-container" id="message-container"></div> -->
+    <br>
+   
+
+
+    <div class="input-group col-md-6" style=" margin: auto;">
+        <div class="input-group-append">
+            <span class="input-group-text attach_btn"><i class="fas fa-paperclip"></i></span>
+        </div>
+        <input type="text" name="" id="input-message" class="form-control type_msg" placeholder="Type your message...">
+        <div class="input-group-append">
+            <button class="btn btn-secondary" id="send-button" type="submit">
+                <span class="input-group-text send_btn">
+                    <i class="fas fa-location-arrow"></i>
+                </span>
+            </button>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        const chatSocket = new WebSocket("ws://" + window.location.host + "/");
+    
+        chatSocket.onopen = function (e) {
+            console.log("Connected to WebSocket");
+        };
+    
+        chatSocket.onclose = function (e) {
+            console.log("WebSocket connection closed unexpectedly");
+        };
+    
+        document.getElementById("input-message").focus();
+        document.getElementById("input-message").onkeyup = function (e) {
+            if (e.keyCode === 13) {
+                document.getElementById("send-button").click();
+            }
+        };
+    
+        document.getElementById("send-button").onclick = function (e) {
+            const messageInputDom = document.getElementById("input-message");
+            const message = messageInputDom.value;
+            chatSocket.send(JSON.stringify({
+                message: message,
+                username: "{{ request.user.username }}"
+            }));
+            messageInputDom.value = "";
+        };
+    
+        chatSocket.onmessage = function (e) {
+            const data = JSON.parse(e.data);
+            const messageContainer = document.getElementById("msg_card_body");
+            const div = document.createElement("div");
+            div.classList.add("d-flex", "mb-1")
+            div.innerHTML = `
+                <!--<div><b>${data.username}</b>: ${data.message}</div>-->
+                <div class="">
+                    <div class="msg_cotainer_send">
+                        <span style="font-weight:700; opacity:30%;">${data.username} : </span>
+                        ${data.message}
+                        <span class="msg_time_send">8:55 AM, Today</span>
+                    </div>
+                    <div class="img_cont_msg">
+                    </div>
+			    </div>
+            `;
+            if (data.username === "{{ request.user.username }}") {
+                div.classList.add("replied");
+            } else {
+                div.classList.add("received");
+            }
+            messageContainer.appendChild(div);
+            messageContainer.scrollTop = messageContainer.scrollHeight;
+        };
+    </script>
+    
+</body>
+</html>
+
+
