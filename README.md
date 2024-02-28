@@ -22,8 +22,8 @@ KPulse ChatRoom is a robust chat application designed to facilitate seamless com
 
 ## Project Structure:
 ``` bash
-├── chatroom/                # Django project directory
-│   ├── chatroom/            # Main Django application directory
+├── KPulse/                # Django project directory
+│   ├── chat/            # Main Django application directory
 │   │   ├── templates/       # HTML templates for frontend
 │   │   ├── static/          # Static files (CSS, JS, images)
 │   │   ├── models.py        # Database models
