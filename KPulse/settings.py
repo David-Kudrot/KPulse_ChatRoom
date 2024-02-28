@@ -66,13 +66,12 @@ ASGI_APPLICATION = 'KPulse.asgi.application'
 
 CHANNEL_LAYERS = {
     "default": {
-        "BACKEND": "channels.layers.InMemoryChannelLayer",
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
         "CONFIG": {
-            "hosts": [os.environ.get('REDIS_URL', 'redis://localhost:6379')],  # Use environment variable for Redis URL
+            "hosts": [("localhost", 6379)],
         },
-    }
+    },
 }
-
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
