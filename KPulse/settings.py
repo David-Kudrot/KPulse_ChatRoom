@@ -15,7 +15,7 @@ SECRET_KEY = 'django-insecure-bz3&u_8-x#8)1-9hd^bvd^-ij)6o*^$0dj8fv3@ew)k$hho$f_
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ['https://kpulse-chatroom.onrender.com','https://*.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://kpulse-chatroom-xl2p.onrender.com','https://*.127.0.0.1']
 
 
 # Application definition
