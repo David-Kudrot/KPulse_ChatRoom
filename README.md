@@ -21,4 +21,33 @@ KPulse ChatRoom is a robust chat application designed to facilitate seamless com
 - **Database:** SQLite3
 
 ## Project Structure:
+├── chatroom/ # Django project directory
+│ ├── chatroom/ # Main Django application directory
+│ │ ├── templates/ # HTML templates for frontend
+│ │ ├── static/ # Static files (CSS, JS, images)
+│ │ ├── models.py # Database models
+│ │ ├── views.py # Views for handling HTTP requests
+│ │ ├── urls.py # URL patterns for routing
+│ │ └── ...
+│ ├── manage.py # Django's command-line utility
+│ └── ...
+└── README.md # Project documentation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/kpulse-chatroom.git
+
+cd kpulse-chatroom
+
+pip install -r requirements.txt
+
+python manage.py migrate
+
+Access the application at http://127.0.0.1:8000/ in your web browser.
+Contributing:
+Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
+
+License:
+This project is licensed under the MIT License.
 
