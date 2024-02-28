@@ -4,6 +4,7 @@ autobahn
 Automat
 cffi
 channels
+channels-redis
 constantly
 cryptography
 daphne
