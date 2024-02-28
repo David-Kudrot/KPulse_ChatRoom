@@ -35,19 +35,42 @@ KPulse ChatRoom is a robust chat application designed to facilitate seamless com
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/kpulse-chatroom.git
+## Installation:
 
-cd kpulse-chatroom
+1. Clone the repository:
 
-pip install -r requirements.txt
+    ```bash
+    git clone https://github.com/your-username/kpulse-chatroom.git
+    ```
 
-python manage.py migrate
+2. Navigate to the project directory:
 
-Access the application at http://127.0.0.1:8000/ in your web browser.
-Contributing:
+    ```bash
+    cd kpulse-chatroom
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Run migrations:
+
+    ```bash
+    python manage.py migrate
+    ```
+
+5. Start the development server:
+
+    ```bash
+    python manage.py runserver
+    ```
+
+6. Access the application at [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your web browser.
+
+## Contributing:
+
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
 
-License:
-This project is licensed under the MIT License.
 
